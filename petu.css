@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffe4ec, #ffd6eb); 
+    color: #6b0f1a; 
+    padding: 40px;
+}
+
+
+h2, h1 {
+    color: #d63384; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #fff0f5; 
+    box-shadow: 0 0 20px rgba(214, 51, 132, 0.3); 
+}
+
+
+label {
+    display: inline-block;
+    width: 140px;
+    font-weight: bold;
+    color: #c71585; 
+}
+
+
+input[type="number"],
+input[type="email"] {
+    width: 80px;
+    padding: 5px;
+    border: 2px solid #ffc0cb;
+    border-radius: 5px;
+    background-color: #fffafc;
+    color: #800040;
+    margin-bottom: 10px;
+}
+
+/* Botón */
+button {
+    background-color: #ff69b4; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #d63384; 
+}
+
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

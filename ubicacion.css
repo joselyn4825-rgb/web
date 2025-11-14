@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    margin: 60px;
+    background-image: url(../imagenes/flor.jpg);
+  
+  
+  }
+ 
+
+
+
+
+  .cabecera {
+    color: #b89797;
+    text-align: center;
+    margin: 20px;
+   
+  }
+   
+  nav {
+    margin-top: 10px;
+    }
+    nav a {
+      color: rgb(189, 176, 176);
+      text-decoration: none;
+      margin: 0 15px;
+    }
+      .menu ul {
+      overflow: hidden; 
+      list-style: none;
+      }
+      .menu li{
+      display: inline;
+      float: left;
+      }
+      .menu li a {
+      background-color: #3b2126;
+      color: #ebe0e0;
+      text-decoration: none;
+      padding: 30px 50px;
+      display: block;
+      text-align: center;
+      }
+      footer {
+        background-color: #8c525e;
+        text-align: center;
+        color: #ffffff;
+        padding: 10px 0;
+        margin-top: 20px;
+       
+      }
+       
+      button {
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+       padding: 10px;
+       color: #494d4c;
+       transition: .3s ease all;
+        
+        }
+        
+        button:hover {
+        background: #494947;
+        color: #574e54;
+        box-shadow: 3px 3px 5
+        }

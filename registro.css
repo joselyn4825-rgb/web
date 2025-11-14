@@ -1,0 +1,81 @@
+body {
+    background-color: #fbeff2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4b0012;
+    padding: 40px;
+}
+
+h2 {
+    color: #80002a;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: #a0003c;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contenedor {
+    background-color: #fff0f5;
+    border: 2px solid #d47a8c;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(128, 0, 42, 0.2);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    color: #5a0020;
+    margin-top: 10px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+input[type="direccion"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #80002a;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: #fff6fa;
+    color: #4b0012;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+    background-color: #80002a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 5px 0 0;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background-color: #a0003c;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

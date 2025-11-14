@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    margin: 20px;
+    background-image: url(../imagenes/flor.jpg);
+
+
+  }
+  #información{
+      max-width: 700 px;
+      margin: 10px;
+      padding: 40 px;
+      background-color: #e5c1d6;
+      box-shadow: #f7cfdd;
+  
+  }
+  
+   .img{
+    border-radius: 60% ;
+    width: 100px;
+    height: 50px;
+ 
+
+}
+h2{
+  background-color: #857a80;
+  color: #170f15;
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+.encabezado{
+    text-align: justify;
+    background-color: #522b2b;
+    color: #fffafd;
+    padding: 50px;
+}
+img{
+  border-radius: 5%;
+  width: 100px;
+  height: 50px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto  ;
+}
+
+    #contenedor {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #1f3030;
+    box-shadow: 0 0 10px rgba(192, 185, 185, 0.842);
+    padding: 15px;
+  }
+  .cabecera {
+    color: #b89797;
+    text-align: center;
+    margin: 13px;
+   
+  }
+   
+  nav {
+    margin-top: 10px;
+    }
+    nav a {
+      color: rgb(189, 176, 176);
+      text-decoration: none;
+      margin: 30px;
+    }
+      .menu ul {
+      overflow: hidden; 
+      list-style: none;
+      }
+      .menu li{
+      display: inline;
+      float: left;
+      }
+      .menu li a {
+      background-color: #2e191a;
+      color: #ebe0e0;
+      text-decoration: none;
+      padding: 20px 20px;
+      display: block;
+      text-align: center;
+      }
+  
+  main {
+    margin: 8% 2.5%;
+  }
+  img{
+      display: block;
+      margin: center;
+      width: 700px;
+     height: 400px;
+  }
+  footer {
+    background-color: #6c6e70;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 20px;
+   
+  }
+   
+  button {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+   padding: 10px;
+   color: #494d4c;
+   transition: .3s ease all;
+    
+    }
+    
+    button:hover {
+    background: #494947;
+    color: #574e54;
+    box-shadow: 3px 3px 5
+    }

@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  margin: 60px;
+  background-image: url(../imagenes/flor.jpg);
+
+
+}
+
+
+ .img{
+  border-radius: 60% ;
+  width: 100px;
+  height: 50px;
+  
+
+}
+
+
+h1{
+  background-color: #e8dad0;
+  color: #3c1f1f;
+  text-align: center;
+  padding: 30px;
+  }
+
+  h2{
+    
+    color: #f7eef5;
+    text-align: center;
+    padding: 30px;
+    }
+
+
+
+h3{
+
+color: #f7eef5;
+text-align: center;
+padding: 30px;
+}
+#información{
+  max-width: 700 px;
+  margin: 80px;
+  padding: 50 px;
+  background: linear-gradient(to left,  #2c1519, #e8dad0);
+}
+
+
+.encabezado{
+  text-align: justify;
+  color: #fffafd;
+  padding: 90px;
+  background-color: #bf9194;
+  box-shadow: #b5a8ad;
+  background: linear-gradient(to left, #e8dad0, #2c1519);
+
+
+}
+img{
+border-radius: 5%;
+width: 100px;
+height: 50px;
+display: block; 
+margin-left:auto; 
+margin-right: auto;
+}
+
+  #contenedor {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #1f3030;
+  box-shadow: 0 0 10px rgba(192, 185, 185, 0.842);
+  padding: 15px;
+}
+.cabecera {
+  color: #b89797;
+  text-align: center;
+  margin: 20px;
+ 
+}
+ 
+nav {
+  margin-top: 10px;
+  }
+  nav a {
+    color: rgb(54, 26, 26);
+    text-decoration: none;
+    margin: 0 15px;
+  }
+    .menu ul {
+    overflow: hidden; 
+    list-style: none;
+    }
+    .menu li{
+    display: inline;
+    float: left;
+    
+    }
+    .menu li a {
+    background-color: #3e1f1f;
+    color: #f4eded;
+    text-decoration: none;
+    padding: 30px 50px;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    }
+
+main {
+  margin: 8% 2.5%;
+}
+img{
+    display: block;
+    margin: center;
+    width: 200px;
+   height: 200px;
+}
+footer {
+  background-color:#b89797;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0;
+  margin-top: 20px;
+ 
+}
+ 
+button {
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+ padding: 10px;
+ color: #494d4c;
+ transition: .3s ease all;
+  
+  }
+  
+  button:hover {
+  background: #716c6f;
+  color: #574e54;
+  box-shadow: 3px 3px 5
+  }

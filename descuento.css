@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background: -webkit-linear-gradient(to left, #ad6060, #e0c3d3);
+    background: linear-gradient(to left, #1e0f13, #c49298);
+    font-size: 14px;
+    margin: 100px;
+    background-image: url(../imagenes/flor.jpg);
+  }
+  
+  table,td,th{
+    border: 1px solid rgb(23, 2, 2);
+    border-collapse: collapse;
+    padding: 60px;
+    margin: 10px auto;
+    width: 60px;
+    background: linear-gradient(to left, #814e54, #d69fa7);
+    font-size: 25px;
+    
+    }
+    th{
+       background-color: #2e1010;
+        color: #f2ecec;
+    }
+    tr:nth-child(even){
+        background-color: #eca2b1;
+    }
+
+  #contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fdfefe;
+    box-shadow: 0 0 10px rgba(192, 185, 185, 0.842);
+    padding: 15px;
+  }
+  .cabecera {
+    color: #de9eab;
+    text-align: center;
+    margin: 20px;
+  }
+   
+  nav {
+    margin-top: 10px;
+    }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  ·menu ul {
+    overflow: hidden;   
+    list-style: none;   
+   }
+   
+  .menu li {
+    display: inline;
+    float: left; 
+    }
+  .menu li a {
+    
+    background-color: #674143;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 40px 55px;
+    display: block;
+    text-align: center;
+    margin: 30px;
+     font-size: 16px;
+  }
+  main {
+    margin: 8% 2.5%;
+  }
+  img{
+      display: block;
+      margin: 15px;
+      width: 300px;
+      height: 400px;
+  }
+  footer {
+    background-color: #a58181;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 20px;
+   
+  }
+   
+  button {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #6a3a3c;
+    transition: .3s ease all;
+   
+  }
+   
+  button:hover {
+    background: #615f5f;
+    color: #4b3942;
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, 1.5);
+  }
+   

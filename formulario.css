@@ -1,0 +1,79 @@
+body{
+    background-color: #eddada;
+    font-size: 20px;
+    font-family: century;
+    width: 60%;
+    border-radius: 40px;
+    padding: 30px;
+    border: 4px solid #c7b9b9;
+    margin: 15px auto;
+    margin-left: auto;
+  }
+  h4{
+    text-align: center;
+    }
+    input:invalid:required {
+      background-color:#553236;
+  }
+  /*img{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    float: right;
+  }*/
+  .linea {
+    border-bottom: 3px solid #8a8989;
+    margin: 10px 0;
+  }
+  input[type="submit"]{
+    padding: 10px 20px;
+    background: #e6bebf;
+  }
+  input[type="reset"]{
+    padding: 10px 20px;
+    background: #e6bebf;
+  }
+  .contenedor .formulario .contenedor-inputs{
+    padding: 20px;
+    background: #824b4c;
+    border-radius: 6px 6px 0 0;
+  }
+  .contenedor .formulario input[type="text"],
+  .contenedor .formulario input[type="email"],
+  .contenedor .formulario input[type="pasword"],
+  .contenedor .formulario input[id="tel"]
+  {
+      display: block;
+      width: 95%;
+      margin-bottom: 20px;
+      padding:  15px 10px;
+      border: none;
+      border-bottom: 2px solid #cfa1a1;
+      font-family: sans-serif;
+      font-size: 18px;
+  }
+  .contenedor .formulario .error{
+    display: none;
+    margin-top: 25px;
+    border-radius: 3px;
+    background: #ce1818;
+    color: #fff;
+    padding: 15px 10px;
+    padding-left: 40px;
+  }
+  .contenedor .formulario .btn{
+    width: 9%;
+    text-align: center;
+    background: #db9baa;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  .contenedor .formulario .btn:hover{
+    background: #ba9a9d;
+  }
+   
